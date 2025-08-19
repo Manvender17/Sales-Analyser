@@ -1,0 +1,126 @@
+{
+  "dataset_summary": {
+    "total_records": 11747,
+    "total_features": 62,
+    "date_range": "2023-08-20 00:00:00 to 2025-08-19 00:00:00",
+    "total_revenue": 24917401.83,
+    "unique_customers": 11497,
+    "unique_products": 33
+  },
+  "data_quality_metrics": {
+    "completeness": {
+      "score": 100.0,
+      "missing_values": "0",
+      "status": "PASS"
+    },
+    "data_types": {
+      "issues": 0,
+      "status": "PASS"
+    },
+    "business_rules": {
+      "violations": "0",
+      "status": "PASS"
+    },
+    "statistical": {
+      "outliers": "2187",
+      "outlier_percentage": 18.62,
+      "outlier_details": {
+        "unit_price": "1157",
+        "total_amount": "1030",
+        "customer_age": "0",
+        "discount_percent": "0"
+      },
+      "status": "WARNING"
+    },
+    "annotations": {
+      "total_labels": 18,
+      "label_distribution": {
+        "is_weekend": {
+          "count": "3358",
+          "percentage": 28.59
+        },
+        "is_month_end": {
+          "count": "331",
+          "percentage": 2.82
+        },
+        "is_holiday_season": {
+          "count": "2009",
+          "percentage": 17.1
+        },
+        "is_high_value_customer": {
+          "count": "2962",
+          "percentage": 25.21
+        },
+        "is_at_risk_customer": {
+          "count": "2764",
+          "percentage": 23.53
+        },
+        "is_vip_customer": {
+          "count": "0",
+          "percentage": 0.0
+        },
+        "is_bulk_purchase": {
+          "count": "7861",
+          "percentage": 66.92
+        },
+        "is_high_discount_sale": {
+          "count": "5823",
+          "percentage": 49.57
+        },
+        "is_premium_product": {
+          "count": "3916",
+          "percentage": 33.34
+        },
+        "is_weekend_sale": {
+          "count": "3358",
+          "percentage": 28.59
+        },
+        "is_holiday_season_sale": {
+          "count": "2009",
+          "percentage": 17.1
+        },
+        "is_new_customer": {
+          "count": "11257",
+          "percentage": 95.83
+        },
+        "is_repeat_customer": {
+          "count": "30",
+          "percentage": 0.26
+        },
+        "is_high_margin_sale": {
+          "count": "7850",
+          "percentage": 66.83
+        },
+        "is_large_transaction": {
+          "count": "1175",
+          "percentage": 10.0
+        },
+        "is_electronics_purchase": {
+          "count": "2400",
+          "percentage": 20.43
+        },
+        "is_urgent_order": {
+          "count": "2969",
+          "percentage": 25.27
+        },
+        "is_enterprise_customer": {
+          "count": "3824",
+          "percentage": 32.55
+        }
+      },
+      "status": "PASS"
+    },
+    "overall": {
+      "score": 95.3,
+      "status": "PASS"
+    }
+  },
+  "annotation_labels": 18,
+  "export_files_created": [
+    "sales_data_complete.csv",
+    "sales_analysis_complete.xlsx",
+    "Power BI dimension tables (4 files)",
+    "sales_fact_table.csv",
+    "sales_ml_dataset.csv"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "total_features": 90,
+  "numeric_features": 40,
+  "binary_features": 18,
+  "encoded_features": 53,
+  "target_suggestions": [
+    "is_high_value_customer",
+    "is_at_risk_customer",
+    "customer_value_tier",
+    "total_amount"
+  ]
+}
